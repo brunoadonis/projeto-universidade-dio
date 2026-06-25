@@ -10,7 +10,7 @@ CREATE TABLE "Aluno" (
 );
 CREATE TABLE "Curso" (
 	"idGraduacao" number NOT NULL UNIQUE,
-	"cursoGaduacao" varchar2(255) NOT NULL,
+	"cursoGraduacao" varchar2(255) NOT NULL,
 	"areaAtuacao" varchar2(255) NOT NULL,
 	"tempoPeriodosTotal" number NOT NULL,
 	PRIMARY KEY ("idGraduacao")
